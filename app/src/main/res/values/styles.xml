@@ -1,0 +1,133 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="click_btn">
+        <item name="android:onClick">onClick</item>
+    </style>
+
+
+    <style name="basic_btn_config" parent="click_btn">
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+    
+
+
+    <style name="text_btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">40dip</item>
+        <item name="android:layout_margin">1dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">18dip</item>
+
+    </style>
+
+    <style name="img_btn">
+        <item name="android:layout_height">35dip</item>
+        <item name="android:layout_width">35dip</item>
+        <item name="android:layout_margin">1dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+
+    <style name="h_pacer">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="v_pacer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dip</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+
+
+    <style name="popup_option_container">
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:background">#ffffffff</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+
+    <style name="popup_option_txt_btn" parent="text_btn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">#f90</item>
+        <item name="android:layout_margin">1dp</item>
+    </style>
+
+    <style name="drawer_menu_txt_btn" parent="text_btn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">#f90</item>
+        <item name="android:layout_margin">3dp</item>
+    </style>
+
+    <style name="drawer_menu_img_btn" parent="img_btn">
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+
+
+    <style name="menuBtn">
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:layout_marginRight">1dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:gravity">center</item>
+        <!--<item name="android:padding">10dp</item>-->
+    </style>
+
+
+
+
+
+    <style name="StyleSet"><!--
+        <item name="android:"></item>
+
+        <item name="android:layout_width"></item>
+        <item name="android:layout_height"></item>
+        <item name="android:layout_weight"></item>
+
+        <item name="android:textSize"></item>
+        <item name="android:textColor"></item>
+        <item name="android:textStyle">bold|italic</item>
+
+        <item name="android:gravity"></item>
+        <item name="android:layout_gravity"></item>
+
+        <item name="android:layout_margin"></item>
+        <item name="android:layout_marginTop"></item>
+        <item name="android:layout_marginLeft"></item>
+        <item name="android:layout_marginRight"></item>
+        <item name="android:layout_marginBottom"></item>
+
+        <item name="android:padding"></item>
+        <item name="android:paddingTop"></item>
+        <item name="android:paddingLeft"></item>
+        <item name="android:paddingRight"></item>
+        <item name="android:paddingBottom"></item>
+
+        <item name="android:color"></item>
+        <item name="android:background"></item>
+
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:visibility"></item>
+    --></style>
+
+</resources>
