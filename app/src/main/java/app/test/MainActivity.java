@@ -14,7 +14,7 @@ public class MainActivity extends DrawerActivity {
 
     @Override
     protected int[] getRequiredPermission() {
-        return new int[]{InfoCode.NO_PERMISSION_REQUIRED};
+        return new int[]{InfoCode.FILE_PERMISSION};
     }
     @Override
     protected void onCreate() {
